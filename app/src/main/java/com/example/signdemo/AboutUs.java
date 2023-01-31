@@ -16,7 +16,7 @@ public class AboutUs extends AppCompatActivity {
 
         TextView link=findViewById(R.id.textView3);
         link.setOnClickListener((view)->{
-            Uri uri = Uri.parse("https://github.com/");
+            Uri uri = Uri.parse("https://github.com/izzahazri/Hazard-News");
             startActivity(new Intent(Intent.ACTION_VIEW,uri));
         });
     }
